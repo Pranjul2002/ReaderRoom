@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    background-color: black;
+    background-image: url("images/welcomeimage.jpg");
     color: aliceblue;
     height: 700px;
 }
@@ -26,16 +26,16 @@ header{
 
 .welcome-banner{
     position: absolute;
+    color: cyan;
     top: 100px;
     left: 200px;
-    background-color: blueviolet;
     width: 80%;
     height: 500px;
 }
 
 .welcome-banner .heading{
     position: absolute;
-    font-size: 50px;
+    font-size: 60px;
     left: 15%;
     top: 20%;
 }
@@ -43,28 +43,223 @@ header{
 .welcome-banner .sub-heading{
     position: absolute;
     left: 15%;
-    top: 40%;
+    top: 45%;
 }
 
 .welcome-banner .see-more-button{
     position: absolute;
+    background-color: cyan;
     left: 15%;
-    top: 55%;
+    top: 60%;
     width: 8%;
     height: 8%;
     border-radius: 15px;
     font-size: 16px;
 }
 
+.serch-text{
+    position: absolute;
+    left: 25%;
+    top: 90%;
+    font-size: 25px;
+}
+
+#bookSearch{
+    position: absolute;
+    left: 45%;
+    top: 93%;
+    width: 20%;
+    height: 9%;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    background-color:rgb(91, 151, 151);
+}
+
+
 .welcome-banner-right{
-    background-color: aqua;
     position: absolute;
     height: 500px;
     left: 60%;
     width: 40%;
-
 }
 
-.main-body .book-categories{
-    background-color: green;
+.book-categories{
+    background-color: rgb(35, 35, 47);
+    color: cyan;
+    position: relative;
+    height: 1500px;
+}
+
+.book-categories .book-categories-head{
+    position: absolute;
+    left: 46%;
+    font-size: 30px;
+}
+
+.book-categories .csebooks{
+    background-color: cyan;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 500px;
+}
+
+.csebooks .csebookhead{
+    position: absolute;
+    left: 45%;
+    font-size: 25px;
+}
+
+.csebooks .cse1{
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 18%;
+    height: 300px;
+    
+}
+
+.csebooks .cse2{
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 18%;
+    height: 300px;
+}
+
+.csebooks .cse3{
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    width: 18%;
+    height: 300px;
+}
+
+.csebooks .cse4{
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    width: 18%;
+    height: 300px;
+}
+
+.csebooks .cseseemore{
+    position: absolute;
+    left: 42%;
+    top: 90%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.book-categories .eebooks{
+    background-color: cyan;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 80%;
+    height: 500px;
+}
+
+.eebooks .eebookhead{
+    position: absolute;
+    left: 45%;
+    font-size: 25px;
+}
+
+.eebooks .ee1{
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 18%;
+    height: 300px;
+    
+}
+
+.eebooks .ee2{
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 18%;
+    height: 300px;
+}
+
+.eebooks .ee3{
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+    width: 18%;
+    height: 300px;
+}
+
+.eebooks .ee4{
+    background-color: pink;
+    position: absolute;
+    top: 20%;
+    left: 75%;
+    width: 18%;
+    height: 300px;
+}
+
+.eebooks .eeseemore{
+    position: absolute;
+    left: 42%;
+    top: 90%;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: rgb(116, 218, 221);
+    position: relative;
+    height: 400px;
+    color: cyan;
+}
+
+.social-media{
+    position: absolute;
+    width: 40%;
+    height: 150px;
+    top: 40%;
+    left: 30%;
+}
+
+.social-media .githubID img{
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    width: 10%;
+    height: 65px;
+    border-radius: 100%;
+}
+
+.social-media .linkedinID img{
+    position: absolute;
+    left: 43%;
+    top: 45%;
+    width: 10%;
+    height: 65px;
+    border-radius: 100%;
+}
+
+.social-media .instaID img{
+    position: absolute;
+    left: 75%;
+    top: 45%;
+    width: 10%;
+    height: 68px;
+    border-radius: 100%;
 }
