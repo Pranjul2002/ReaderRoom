@@ -1,0 +1,51 @@
+@media screen and (max-width: 823px) {
+    header{
+        background-image: url("images/welcomeimage.jpg");
+        color: aliceblue;
+        height: 700px;
+    }
+    
+    .logo{
+        left: 35%;
+    }
+    
+    .menu-options{
+        left: 25%;
+        top: 150px;
+    }
+    
+    .welcome-banner{
+        top: 150px;
+        left: 60px;
+    }
+    
+    .welcome-banner .heading{
+        font-size: 50px;
+        left: 5%;
+    }
+    
+    .welcome-banner .sub-heading{
+        top: 50%;
+    }
+    
+    .welcome-banner .see-more-button{
+        left: 35%;
+        top: 65%;
+        width: 25%;
+        height: 8%;
+    }
+    
+    .serch-text{
+        left: 20%;
+        top: 80%;
+    }
+    
+    #bookSearch{
+        left: 25%;
+        top: 93%;
+        width: 45%;
+        height: 5%;
+        font-size: 12px;
+    }
+    
+  }
