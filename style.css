@@ -98,65 +98,71 @@ header{
 }
 
 .book-categories .csebooks{
-    background-color: cyan;
-    border-radius: 20px;
     position: absolute;
     top: 10%;
     left: 10%;
     width: 80%;
-    height: 500px;
+    height: 530px;
 }
 
 .csebooks .csebookhead{
     position: absolute;
     left: 45%;
+    top: -10px;
     font-size: 25px;
 }
 
-.csebooks .cse1{
-    background-color: pink;
+.csebooks .cse1 img{
     position: absolute;
-    top: 20%;
+    transition: transform .2s;
+    top: 14%;
     left: 7%;
     width: 18%;
-    height: 300px;
+    height: 350px;
     
 }
 
-.csebooks .cse2{
-    background-color: pink;
+.csebooks .cse2 img{
     position: absolute;
-    top: 20%;
+    transition: transform .2s;
+    top: 14%;
     left: 30%;
     width: 18%;
-    height: 300px;
+    height: 350px;
 }
 
-.csebooks .cse3{
-    background-color: pink;
+.csebooks .cse3 img{
     position: absolute;
-    top: 20%;
+    transition: transform .2s;
+    top: 14%;
     left: 52%;
     width: 18%;
-    height: 300px;
+    height: 350px;
 }
 
-.csebooks .cse4{
+.csebooks .cse4 img{
     background-color: pink;
+    transition: transform .2s;
     position: absolute;
-    top: 20%;
+    top: 14%;
     left: 75%;
     width: 18%;
-    height: 300px;
+    height: 350px;
 }
+
+.csebooks img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(38, 56, 68, 0.63), 0 10px 25px 5px rgb(33, 49, 75);
+}
+
 
 .csebooks .cseseemore{
     position: absolute;
-    left: 42%;
+    left: 47%;
     top: 90%;
     font-size: 20px;
     text-decoration: none;
-    color: black;
+    color: cyan;
 }
 
 
