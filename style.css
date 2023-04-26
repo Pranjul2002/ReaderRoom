@@ -76,14 +76,6 @@ header{
     background-color:rgb(91, 151, 151);
 }
 
-
-.welcome-banner-right{
-    position: absolute;
-    height: 500px;
-    left: 60%;
-    width: 40%;
-}
-
 .book-categories{
     background-color: rgb(35, 35, 47);
     color: cyan;
@@ -178,6 +170,7 @@ header{
 
 .eebooks .eebookhead{
     position: absolute;
+    color: black;
     left: 45%;
     font-size: 25px;
 }
