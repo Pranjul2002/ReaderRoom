@@ -1,4 +1,4 @@
-@media screen and (max-width: 823px) {
+@media screen and (max-width: 720px) {
     header{
         background-image: url("images/welcomeimage.jpg");
         color: aliceblue;
@@ -6,12 +6,12 @@
     }
     
     .logo{
-        left: 35%;
+        left: 15%;
     }
     
     .menu-options{
-        left: 25%;
-        top: 150px;
+        left: 50%;
+        top: 38px;
     }
     
     .welcome-banner{
@@ -21,11 +21,11 @@
     
     .welcome-banner .heading{
         font-size: 50px;
-        left: 5%;
+        left: 10%;
     }
     
     .welcome-banner .sub-heading{
-        top: 50%;
+        top: 45%;
     }
     
     .welcome-banner .see-more-button{
@@ -36,16 +36,110 @@
     }
     
     .serch-text{
-        left: 20%;
+        left: 30%;
         top: 80%;
     }
     
     #bookSearch{
-        left: 25%;
+        left: 30%;
         top: 93%;
         width: 45%;
         height: 5%;
         font-size: 12px;
     }
+
+
+    .book-categories{
+        height: 2200px;
+    }
+
+    .book-categories .book-categories-head{
+        left: 40%;
+    }
+
+    .book-categories .csebooks{
+        top: 5%;
+        height: 1000px;
+    }
+
+    .csebooks .csebookhead{
+        left: 39%;
+    }
+
+    .csebooks .cse1 img{
+        top: 9%;
+        left: 10%;
+        width: 35%;
+        height: 350px;
+    }
+
+    .csebooks .cse2 img{
+        top: 9%;
+        left: 55%;
+        width: 35%;
+        height: 350px;
+    }
+
+    .csebooks .cse3 img{
+        top: 50%;
+        left: 10%;
+        width: 35%;
+        height: 350px;
+    }
+
+    .csebooks .cse4 img{
+        top: 50%;
+        left: 55%;
+        width: 35%;
+        height: 350px;
+    }
+
+    .csebooks .cseseemore{
+        left: 41%;
+        top: 90%;
+    }
+
+    .book-categories .eebooks{
+        top: 51%;
+        height: 1000px;
+    }
+
+    .eebooks .eebookhead{
+        left: 39%;
+    }
     
-  }
+    .eebooks .ee1{
+        top: 9%;
+        left: 10%;
+        width: 35%;
+        height: 350px;
+        
+    }
+    
+    .eebooks .ee2{
+        top: 9%;
+        left: 55%;
+        width: 35%;
+        height: 350px;
+    }
+    
+    .eebooks .ee3{
+        top: 50%;
+        left: 10%;
+        width: 35%;
+        height: 350px;
+    }
+    
+    .eebooks .ee4{
+        top: 50%;
+        left: 55%;
+        width: 35%;
+        height: 350px;
+    }
+    
+    .eebooks .eeseemore{
+        left: 41%;
+        top: 90%;
+    }
+    
+}
